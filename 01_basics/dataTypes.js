@@ -18,3 +18,27 @@ let state = null
 */
 console.log(typeof undefined) //undefined
 console.log(typeof null) // object
+// primite 
+// string number boolean bigint null undefined symbol
+
+let score = 200
+//let myNumber = 300n
+// console.log(typeof(score))
+// console.log(typeof(myNumber))
+
+// non- primite
+
+let myArray=["hello","people","here"];
+
+let myObject = {
+  name : "Hardik",
+  id:17,
+  age:24
+}
+console.log(myArray)
+console.log(myObject)
+
+const myFunction = function(){
+  console.log("hello world")
+}
+console.log(myFunction)
