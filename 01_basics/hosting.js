@@ -26,6 +26,7 @@ message1 = "hi"
 
 
 // let are hoisted in temporal deadzone
+// temporal deadzone : It is a period of time where var and let are exsist but not intialize
 mymessage="any";
 console.log(mymessage); // here code will not work it will throw error
 let mymessage;
